@@ -1,0 +1,6 @@
+pre-commit:
+  jobs:
+    - name: hello
+      run: echo hello there
+    - name: script
+      script: hello.sh
